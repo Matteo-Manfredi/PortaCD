@@ -132,7 +132,7 @@ public boolean confrontaCollezione2(PortaCD pcd){
     while( trovato=true && x<dischi.length){
         int i=0; 
         while(trovato=true && i<dischi.length){
-            if
+            // daniel
             if(dischi[x]!=null&&pcd.dischi[i]!=null&&!(dischi[x].equals(pcd.dischi[i]))){
                 trovato=false;
 
